@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #008080;
+}
+
+.title h1{
+  margin: 0 auto;
+  padding: 40px 0px 0px 0px;
+  max-width: 600px;
+  color: white;
+  /* -- border-bottom: 2px solid #FBB220; --*/
+  font-family: "Montserrat";
+}
+
+.quote-box {
+  height: 300px;
+}
+
+.quote-space {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  color: #008080;
+  height: 250px;
+  background-color: white;
+  padding: 20px 40px 40px 40px;
+  line-height: 250px;
+}
+
+.v-center {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#quote {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+  vertical-align: middle;
+  margin-top: -40px;
+}
+
+#credit {
+  text-align: right;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: normal;
+  font-size: 14px;
+}
+
+#new-quote {
+  background-color: #33A0A0;
+  border: none;
+  border-radius: 0;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding: 15px 25px 15px 25px;
+}
+
+#new-quote:hover {
+  background-color: #FBB220;
+  border: none;
+}
+
+.tweet {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #quote {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 652px) {
+  #quote {
+    font-size: 14px;
+  }
+  
+  .title h1 {
+    font-size: 28px;
+  }
+}
