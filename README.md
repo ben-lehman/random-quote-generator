@@ -1,2 +1,3 @@
 # random-quote-generator
-A web site that randomly generates quotes I like
+Demo can be found here: https://codepen.io/benlehman/pen/xZzRzv
+The application utilizes Twitter's API and the Bootstrap framework
